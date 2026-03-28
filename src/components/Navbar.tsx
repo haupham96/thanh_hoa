@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-const LOGO_IMAGE = '/favicon.png';
-const LOGO_ALT = 'Thanh Hoa - Thương hiệu gia công may mặc';
+const LOGO_TEXT = 'THANH HOA';
 const CTA_PRIMARY = 'Nhận báo giá';
 const NAV_ITEMS = [
   { label: 'Trang chủ', href: '#', active: true },
@@ -26,13 +25,9 @@ export const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
         {/* Logo */}
         <a
           href="#"
-          className="flex items-center hover:opacity-80 transition-opacity"
+          className="text-xl font-extrabold text-on-surface tracking-tighter font-headline hover:opacity-80 transition-opacity"
         >
-          <img
-            src={LOGO_IMAGE}
-            alt={LOGO_ALT}
-            className="h-10 w-auto object-contain"
-          />
+          {LOGO_TEXT}
         </a>
 
         {/* Desktop Nav */}
