@@ -53,11 +53,12 @@ export const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
         </div>
 
         {/* CTA */}
-        <button
+        <a
+          href="tel:0909990132"
           className="hidden md:flex signature-gradient text-white px-5 py-2 rounded-full font-bold text-sm tracking-wide active:opacity-80 active:scale-95 transition-all shadow-sm hover:shadow-md"
         >
           {CTA_PRIMARY}
-        </button>
+        </a>
 
         {/* Mobile hamburger */}
         <button
@@ -92,9 +93,9 @@ export const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
               {item.label}
             </a>
           ))}
-          <button className="w-full mt-2 signature-gradient text-white px-5 py-3 rounded-full font-bold text-sm tracking-wide shadow-sm">
+          <a href="tel:0909990132" className="block w-full mt-2 text-center signature-gradient text-white px-5 py-3 rounded-full font-bold text-sm tracking-wide shadow-sm">
             {CTA_PRIMARY}
-          </button>
+          </a>
         </div>
       )}
     </nav>

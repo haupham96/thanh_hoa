@@ -72,9 +72,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ className = '' }
               Liên hệ ngay để nhận báo giá chi tiết và tư vấn giải pháp gia công tối ưu cho doanh nghiệp của bạn.
             </p>
             <div className="pt-6">
-              <button className="bg-white text-primary px-10 py-5 rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-2xl">
+              <a href="tel:0909990132" className="bg-white text-primary px-10 py-5 rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-2xl">
                 Nhận báo giá miễn phí
-              </button>
+              </a>
             </div>
           </div>
         </div>

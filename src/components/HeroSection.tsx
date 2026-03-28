@@ -47,15 +47,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ className = '' }) => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-6 pt-4">
-            <button className="signature-gradient text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 transition-transform flex items-center gap-3">
+            <a href="tel:0909990132" className="signature-gradient text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 transition-transform flex items-center gap-3">
               {CTA_PRIMARY}
               <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                <span className="material-symbols-outlined text-base">arrow_forward</span>
+                <span className="material-symbols-outlined text-base">call</span>
               </div>
-            </button>
-            <button className="px-8 py-4 rounded-full font-bold text-lg border-2 border-outline-variant/30 hover:bg-surface-container-low transition-colors text-on-surface">
+            </a>
+            <a href="tel:0909990132" className="px-8 py-4 rounded-full font-bold text-lg border-2 border-outline-variant/30 hover:bg-surface-container-low transition-colors text-on-surface">
               {CTA_SECONDARY}
-            </button>
+            </a>
           </div>
 
           {/* Trust badges */}
